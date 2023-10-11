@@ -23,27 +23,27 @@ const Navbar = () => {
 
       {/* menu */}
       <ul className='hidden md:flex space-x-5'>
-        <li>
+        <li className='cursor-pointer'>
           <Link to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className='cursor-pointer'>
           <Link to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className='cursor-pointer'>
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className='cursor-pointer'>
           <Link to='work' smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li>
+        <li className='cursor-pointer'>
           <Link to='contact' smooth={true} duration={500}>
             Contact
           </Link>
@@ -108,7 +108,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/habib-SE'
             >
               Github <FaGithub size={30} />
             </a>
@@ -116,7 +116,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='hab67603@gmail.com'
             >
               Email <HiOutlineMail size={30} />
             </a>
