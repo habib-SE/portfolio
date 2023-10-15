@@ -1,3 +1,4 @@
+// This is the file of whole daa
 import Finance from '../projects/finance.PNG'
 import Drive from '../projects/drive.PNG';
 import Habib from '../projects/habib-tapha.PNG';
@@ -32,6 +33,4 @@ export const data=[
         github:"https://github.com/habib-SE/responsive-website-resturent",
         live:"",
     },
-
-
 ]
