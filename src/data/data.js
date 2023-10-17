@@ -30,7 +30,7 @@ export const data=[
         name:"HTML, CSS and JS Application",
         image:Tasty,
         github:"https://github.com/habib-SE/responsive-website-resturent",
-        live:"",
+        live:"https://habib-se.github.io/responsive-website-resturent/",
     },
 
 
