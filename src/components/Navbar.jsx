@@ -10,10 +10,12 @@ import { HiOutlineMail } from "../../node_modules/react-icons/hi";
 import { BsFillPersonLinesFill } from "../../node_modules/react-icons/bs";
 import Logo from "../assets/habib.logo-removebg-preview.png";
 import { Link } from "../../node_modules/react-scroll/modules";
+import { useAuth0 } from "@auth0/auth0-react";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+  const { loginWithRedirect, isAuthenticated, logout } = useAuth0();
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
@@ -48,6 +50,19 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        <li>
+          {
+            isAuthenticated ?  <li>
+            <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+          Log Out
+        </button>
+            </li>
+            :  <li>
+            <button onClick={() => loginWithRedirect()}>Log In</button>
+            </li>
+          }
+       </li>
+        
       </ul>
 
       {/* Hamburger */}
