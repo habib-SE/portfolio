@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/habib-SE/portfolio/static/css/main.48699bdf.css",
+    "main.js": "/habib-SE/portfolio/static/js/main.8d1b711d.js",
+    "static/media/drive.PNG": "/habib-SE/portfolio/static/media/drive.7143e7d3d3c0841b5a6e.PNG",
+    "static/media/habib-tapha.PNG": "/habib-SE/portfolio/static/media/habib-tapha.97caff4d0bcda3414877.PNG",
+    "static/media/Tasty-food.PNG": "/habib-SE/portfolio/static/media/Tasty-food.09623f1e2c7966d3fb76.PNG",
+    "static/media/habib.logo-removebg-preview.png": "/habib-SE/portfolio/static/media/habib.logo-removebg-preview.576ba3e734e5183b2a49.png",
+    "static/media/bootstrap.png": "/habib-SE/portfolio/static/media/bootstrap.bb9b9d749d40e498f714.png",
+    "static/media/react.png": "/habib-SE/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/finance.PNG": "/habib-SE/portfolio/static/media/finance.ba52a06f23100ed4524f.PNG",
+    "static/media/node.png": "/habib-SE/portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/habib-SE/portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/github.png": "/habib-SE/portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/habib-SE/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/habib-SE/portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/habib-SE/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/habib-SE/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/habib-SE/portfolio/index.html",
+    "main.48699bdf.css.map": "/habib-SE/portfolio/static/css/main.48699bdf.css.map",
+    "main.8d1b711d.js.map": "/habib-SE/portfolio/static/js/main.8d1b711d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48699bdf.css",
+    "static/js/main.8d1b711d.js"
+  ]
+}
